@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class CrackCookie extends ChangeNotifier {
+class CrackCookie with ChangeNotifier {
   final List<String> _fortunes = [
     'A pleasant surprise is waiting for you.',
     'Your hard work is about to pay off.',
